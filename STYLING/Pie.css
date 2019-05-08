@@ -1,1 +1,21 @@
 /*Link to Pie.html */
+
+
+/* MEDIUM SCREEN SIZE */
+@media (min-width:992 px)  {
+    .desktop-only    /*BE CAREFUL WITH BRACKETS*/
+    {display:inline-block !important;}
+    
+    .mobile-only     /*BE CAREFUL WITH BRACKETS*/
+    {display:none;}
+    
+    }
+    
+    @media (max-width:991 px)  {
+        .desktop-only    /*BE CAREFUL WITH BRACKETS*/
+        {display:none;}
+        
+        .mobile-only     /*BE CAREFUL WITH BRACKETS*/
+        {display:inline-block;}
+        
+        }
